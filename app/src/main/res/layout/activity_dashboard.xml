@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/purple_700"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:id="@+id/profileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:background="#BEBF39">
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="30dp"
+                android:padding="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/profiledddd"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/employeeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:background="#BEBF39">
+
+            <TextView
+                android:id="@+id/employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee"
+                android:onClick="employee"
+                android:textSize="30dp"
+                android:padding="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/employeeddddd" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/assignLoan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:background="#BEBF39">
+
+            <TextView
+                android:id="@+id/loanassign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loan Assign"
+                android:onClick="loanassign"
+                android:textSize="30dp"
+                android:padding="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/loanassigndddd" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/approalLoan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:background="#BEBF39">
+
+            <TextView
+                android:id="@+id/approvals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approvals"
+                android:onClick="approvals"
+                android:textSize="30dp"
+                android:padding="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/approvalsddd" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

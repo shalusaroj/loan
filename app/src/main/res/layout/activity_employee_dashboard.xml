@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_bg"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="728dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:padding="15dp"
+            android:text="Employee Dashboard"
+            android:textAllCaps="true"
+            android:textColor="@color/purple_700"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/profileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="20dp"
+                android:text="Todays Collection List"
+                android:onClick="todayscollectionlist"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="110dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="21dp"
+                android:src="@drawable/img" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="20dp"
+                android:text="Previous Dues List"
+                android:onClick="previousdueslist"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/dashborddddd" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/applyLoan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/applyloan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="20dp"
+                android:text="Custom"
+                android:onClick="custom"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/applyloan1"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_below="@+id/applyloan"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-19dp"
+                android:layout_marginEnd="151dp"
+                android:layout_marginBottom="7dp"
+                android:padding="5dp"
+                android:text="Date wise List Of Collection"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/applyloandddd" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/employeeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="20dp"
+                android:text="Collection History"
+                android:onClick="collectionhistory"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/img_1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/employeeBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/employee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave"
+                android:onClick="leave"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="107dp"
+                android:layout_height="69dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/img_2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/employeeBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/employee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attendence"
+                android:onClick="attendence"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="88dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="23dp"
+                android:src="@drawable/img_3" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/employeeBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/green_bg">
+
+            <TextView
+                android:id="@+id/employee3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transaction History"
+                android:onClick="transactionhistory"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="90dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="32dp"
+                android:src="@drawable/img_4" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

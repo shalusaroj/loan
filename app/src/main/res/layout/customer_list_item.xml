@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/msgtime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Customer Name"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:id="@+id/msgtime1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Customer Id"
+            android:textSize="18dp"
+            android:textColor="#000"
+
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:id="@+id/msgtime2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="EMI Ammount"
+            android:textSize="18dp"
+            android:textColor="#000"
+
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

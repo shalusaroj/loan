@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_bg"
+    tools:context=".AgentActivity">
+
+    <TextView
+        android:id="@+id/application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer List"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        android:layout_margin="20sp"/>
+
+    <ImageView
+        android:id="@+id/stblock_img"
+        android:layout_width="132dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"
+        android:elevation="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profiledddd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileLayout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Your Photo"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="250dp"
+        android:textColor="#000"
+        android:layout_marginTop="-10dp"
+        android:textSize="15dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        tools:listitem="@layout/customer_list_item"/>
+</LinearLayout>

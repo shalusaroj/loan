@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dCollection</string>
+    <string name="contact">For your quick assistance for \nyour teammate</string>
+    <string name="desc">A loan lending mobile app allows you to borrow money from any bank in your country at an interest rate that has been set by them. These apps allow you to compare the interest rates and see which one suits you best.</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+</resources>
